@@ -71,7 +71,7 @@ public class Etudiant_Space extends JFrame {
 		JLabel lblNewLabel_1 = new JLabel();
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setIcon(new ImageIcon("D:\\java\\Projet\\src\\projetJava\\coton-rose-uni-oeko-tex.jpg"));
+		lblNewLabel_1.setIcon(new ImageIcon("./images/coton-rose-uni-oeko-tex.jpg"));
 		lblNewLabel_1.setBounds(0, 0, 595, 44);
 		contentPane.add(lblNewLabel_1);
 		
@@ -162,7 +162,7 @@ public class Etudiant_Space extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("D:\\java\\Projet\\src\\projetJava\\beige.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("./images/beige.jpg"));
 		lblNewLabel.setBounds(0, 0, 595, 317);
 		contentPane.add(lblNewLabel);
 	}
